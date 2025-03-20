@@ -1,7 +1,3 @@
-Here is a summary for the README file based on the images you provided:
-
----
-
 **Visual Question Answering (VQA) using VisionTransformer + RoBERTa**
 
 This project focuses on developing a Visual Question Answering (VQA) system that answers questions about images. The model architecture is based on the integration of **VisionTransformer (ViT)** for image processing and **RoBERTa** for understanding natural language questions.
