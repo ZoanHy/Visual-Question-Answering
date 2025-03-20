@@ -1,10 +1,14 @@
+Here is a summary for the README file based on the images you provided:
+
+---
+
 **Visual Question Answering (VQA) using VisionTransformer + RoBERTa**
 
 This project focuses on developing a Visual Question Answering (VQA) system that answers questions about images. The model architecture is based on the integration of **VisionTransformer (ViT)** for image processing and **RoBERTa** for understanding natural language questions.
 
 ### Overview
 
-- **VQA** is a task in machine learning that combines **Computer Vision** and **Natural Language Processing**. The goal is to interpret images and respond to questions related to the visual content. 
+- **VQA** is a task in machine learning that combines **Computer Vision** and **Natural Language Processing**. The goal is to interpret images and respond to questions related to the visual content.
 
 - In this project, the VQA system takes an image and a natural language question as input and provides a text-based answer. For example, given the question "Is this a truck?" and an image, the model should return the answer "yes".
 
@@ -27,11 +31,11 @@ In this project, we take a more advanced approach by combining **VisionTransform
 
 ### Pipeline Diagram
 
+![Pipeline Diagram](images/image.png)
+
 - **Input**: An image and a natural language question.
-- **Process**: 
+- **Process**:
   - The image is processed by ViT.
   - The question is encoded by RoBERTa.
-  - Both features are fused and passed to a classifier.
+- Both features are fused and passed to a classifier.
 - **Output**: A text-based answer to the question, e.g., "yes".
-
----
